@@ -2,7 +2,7 @@
   "name": "get-e2e-test-classname",
   "version": "1.1.0",
   "description": "Get unique classnames for e2e tests with prefix",
-  "main": "src/index.js",
+  "main": "build/index.js",
   "scripts": {
     "prebuild": "rimraf ./build",
     "build": "flow-remove-types src/ -d build/",
