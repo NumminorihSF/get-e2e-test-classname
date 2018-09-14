@@ -2,8 +2,12 @@
   "name": "get-e2e-test-classname",
   "version": "1.0.0",
   "description": "Get unique classnames for e2e tests with prefix",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "prebuild": "rimraf ./build",
+    "build": "flow-remove-types src/ -d build/",
+    "postbuild": "node add-flow-types",
+    "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -19,5 +23,14 @@
     "url": "https://github.com/NumminorihSF/get-e2e-test-classname/issues"
   },
   "homepage": "https://github.com/NumminorihSF/get-e2e-test-classname#readme",
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "build/"
+  ],
+  "devDependencies": {
+    "flow-bin": "^0.80.0",
+    "flow-remove-types": "^1.2.3",
+    "glob": "^7.1.3",
+    "rimraf": "^2.6.2"
+  }
 }

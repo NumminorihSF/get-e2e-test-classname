@@ -1,0 +1,17 @@
+[ignore]
+<PROJECT_ROOT>/node_modules/babylon/.* # generated automatically cause dev-dependency
+<PROJECT_ROOT>/node_modules/balanced-match/.* # generated automatically cause dev-dependency
+<PROJECT_ROOT>/node_modules/brace-expansion/.* # generated automatically cause dev-dependency
+<PROJECT_ROOT>/node_modules/concat-map/.* # generated automatically cause dev-dependency
+<PROJECT_ROOT>/node_modules/flow-bin/.* # generated automatically cause dev-dependency
+<PROJECT_ROOT>/node_modules/flow-remove-types/.* # generated automatically cause dev-dependency
+<PROJECT_ROOT>/node_modules/fs.realpath/.* # generated automatically cause dev-dependency
+<PROJECT_ROOT>/node_modules/glob/.* # generated automatically cause dev-dependency
+<PROJECT_ROOT>/node_modules/inflight/.* # generated automatically cause dev-dependency
+<PROJECT_ROOT>/node_modules/inherits/.* # generated automatically cause dev-dependency
+<PROJECT_ROOT>/node_modules/minimatch/.* # generated automatically cause dev-dependency
+<PROJECT_ROOT>/node_modules/once/.* # generated automatically cause dev-dependency
+<PROJECT_ROOT>/node_modules/path-is-absolute/.* # generated automatically cause dev-dependency
+<PROJECT_ROOT>/node_modules/rimraf/.* # generated automatically cause dev-dependency
+<PROJECT_ROOT>/node_modules/vlq/.* # generated automatically cause dev-dependency
+<PROJECT_ROOT>/node_modules/wrappy/.* # generated automatically cause dev-dependency
