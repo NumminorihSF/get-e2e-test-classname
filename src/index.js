@@ -17,7 +17,7 @@ module.exports.getE2ETestClassName = getE2ETestClassName;
 
 module.exports.setPrefix = function setPrefix(nextPrefix: mixed) {
   if (typeof nextPrefix !== 'string') {
-    throw new Error('Prefix should be a string. Got ' + nextPrefix);
+    throw new Error('Prefix should be a string. Got ' + typeof nextPrefix);
   }
   if (globalRegistry.size !== 0) {
     throw new Error('Prefix can\'t be changed after creating any classname');
