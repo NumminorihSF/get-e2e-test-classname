@@ -67,4 +67,4 @@ const e2e = {
 | Manual | Scoped |
 |-------|------|
 | `-my-form-inside-application-first-name-input` | `-my-form-inside-application_first-name-input` |
-| `                           ^                ` | `                           ^                ` |
+| `___________________________^                ` | `___________________________^                ` |
